@@ -50,5 +50,5 @@
             </form>
             <a href="notes">cancel edit</a>
         </c:if>
-    </body>
+    </body> 
 </html>
