@@ -11,9 +11,9 @@
 
         <h1>Notes for ${email}</h1>
         <p>
-            <c:if test="${message eq 'create'}">Note created!</c:if>
-            <c:if test="${message eq 'update'}">Note updated!</c:if>
-            <c:if test="${message eq 'delete'}">Note deleted!</c:if>
+            <c:if test="${message eq 'create'}">Note created</c:if>
+            <c:if test="${message eq 'update'}">Note updated</c:if>
+            <c:if test="${message eq 'delete'}">Note deleted</c:if>
             <c:if test="${message eq 'error'}">Sorry, something went wrong.</c:if>
             </p>
             <ul> 
