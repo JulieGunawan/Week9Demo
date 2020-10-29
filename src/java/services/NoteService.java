@@ -8,7 +8,7 @@ public class NoteService {
     public Note get(int id) throws Exception {
         NoteDB noteDB = new NoteDB();
         Note note = noteDB.get(id);
-        return null;
+        return note;
     }
     
     public List<Note> getAll(String email) throws Exception {
