@@ -80,6 +80,7 @@ public class NoteDB {
               user.getNoteList().remove(note);
               trans.begin();
               em.remove(em.merge(note));
+              em.merge(user);
               trans.commit();
         } catch (Exception ex){
             trans.rollback();
